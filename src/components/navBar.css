@@ -1,0 +1,54 @@
+li {
+    list-style: none;
+    color: #dbdbdbe7;
+}
+
+nav{
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    height: 8vh;
+    background-color: #6e0000 ;
+
+}
+
+.nav_menu{
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    gap: 3rem;
+    padding-left: 75%;
+   
+}
+
+.nav_items{
+    cursor: pointer;
+
+}
+
+.nav_items:hover{
+    color: rgb(8, 5, 1);
+}
+
+.bi{
+    font-size: 25px;
+}
+
+.bi:hover  {
+    font-size: 25px;
+    cursor: pointer;
+    color: black;
+}
+
+.nav_items_contador{
+    display: flex;
+    align-items: center;
+}
+
+.titulo{
+    color: antiquewhite;
+}
+
+.titulo:hover {
+    color: black;
+}
